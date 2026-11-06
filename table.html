@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout HTML dan CSS</title>
+        <link rel="stylesheet" href="table.css">
+    </head>
+    <body>
+        <body>
+            <div class="header">
+                <h2>LAYOUT HTML DAN CSS</h2>
+            </div>
+            <div class="topnav">
+                <a href="index.html">Biodata</a>
+                <a href="table.html">Table</a>
+                <a href="list.html">List</a>
+                <a href="sts.html">STS</a>
+            </div>
+        <!-- Membuat menu / nav bar-->
+
+         <!-- Membuat content -->
+         <h2> Colspan dan Rowspan pada Table </h2>
+        <!-- colspan : menggabungkan kolom 
+             rowspan : menggabungkan baris -->
+
+        <table>
+            <tr>
+                <th rowspan="2" class="hover">No.</th>
+                <th rowspan="2" class="hover">Nama</th>
+                <th rowspan="1" colspan="2" class="hover">Nilai</th>
+            </tr>
+            <tr>
+                <th class="hover">Ulangan 1</th>
+                <th class="hover">Ulangan 2</th>
+            </tr>
+            <tr>
+                <td class="hover">1</td>
+                <td class="hover">Valerie</td>
+                <td class="hover">100</td>
+                <td class="hover">100</td>
+            </tr>
+            <tr>
+                <td class="hover">2</td>
+                <td class="hover">Shannyn</td>
+                <td class="hover">92</td>
+                <td class="hover">89</td>
+            </tr>
+            <tr>
+                <td class="hover">3</td>
+                <td class="hover">Agnes</td>
+                <td class="hover">67</td>
+                <td class="hover">67</td>
+            </tr>
+            <tr>
+                <td class="hover">4</td>
+                <td class="hover">Meilani</td>
+                <td class="hover">95</td>
+                <td class="hover">48</td>
+            </tr>
+            <tr>
+                <td class="hover">5</td>
+                <td class="hover">Keana</td>
+                <td class="hover">92</td>
+                <td class="hover">93</td>
+            </tr>
+            <tr>
+                <td class="hover">6</td>
+                <td class="hover">Kathleen</td>
+                <td class="hover">99</td>
+                <td class="hover">99</td>
+            </tr>
+        </table>
+
+        <!-- merge -->
+
+        <table>
+            <tr>
+                <th rowspan="3" class="hover"> A </th>
+                <th rowspan="2" class="hover"> B </th>
+                <th colspan="2" class="hover"> C </th>
+                <th rowspan="3" class="hover"> D </th>
+                <th rowspan="4" class="hover"> E </th>
+                <th rowspan="2" class="hover"> N </th>
+                <th rowspan="6" class="hover"> H </th>
+            </tr>
+            <tr>
+                <th rowspan="1" class="hover"> F </th>
+                <th class="hover"> G </th>
+            </tr>
+            <tr>
+                <th class="hover"> I </th>
+                <th class="hover"> J </th>
+                <th class="hover"> K </th>
+                <th rowspan="2" class="hover"> O </th>
+            </tr>
+            <tr>
+                <th colspan="5" class="hover"> M </th>
+            </tr>
+            <tr>
+                <th rowspan="2" class="hover"> P </th>
+                <th colspan="2" class="hover"> Q </th>
+                <th rowspan="2" class="hover"> R </th>
+                <th rowspan="1" class="hover"> U </th>
+                <th class="hover"> V </th>
+                <th class="hover"> W </th>
+            </tr>
+            <tr>
+                <th class="hover"> S </th>
+                <th class="hover"> T </th>
+                <th class="hover"> X </th>
+                <th class="hover"> Y </th>
+                <th class="hover"> Z </th>
+            </tr>
+        </table>
+
+        <!-- Membuat footer -->
+         <div class="footer">
+            <p> Valerie 95/34 </p>
+         </div>
+    </body>
+</html>

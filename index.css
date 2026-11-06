@@ -1,0 +1,494 @@
+@font-face{
+    font-family: 'poppins';
+    src:url(Poppins-SemiBold.ttf)
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+.topnav{
+    overflow: hidden;
+    background-color: pink;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: lemonchiffon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: plum;
+    color: wheat;
+}
+body{
+    background-image: url(Wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+     font-family: "poppins";
+}
+h2{
+    background-color: #ff3197;
+    border:3px solid #620745;
+    color:rgb(254, 255, 171);
+    text-align: center;
+}
+h1{
+    background-color: #ff99df;
+    color:#e521a7;
+    text-align: center;
+}
+div.Biodata{
+    margin: 30px auto;
+    width: 80%;
+    background-color: #ffac8f;
+    color: #ff3197;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.Isi{
+    font-family: "poppins";
+}
+div.Content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+div.Foto{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fefdb2;
+}
+div.Foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s;
+}
+div.Foto img.top{
+    opacity: 1;
+    z-index: 2;
+}
+div.Foto:hover img.top{
+    opacity:0;
+    transform: scale(1.1);
+}
+div.Foto img.bottom{
+    opacity: 0;
+    z-index: 1;
+}
+div.Foto:hover img.bottom{
+    opacity:1;
+    transform: scale(1.1);
+}
+div.Makanan{
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+img{
+    padding: 10px;
+}
+div.Sushi{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Sushi:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Buldak{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Buldak:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.XiaoLongBao{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.XiaoLongBao:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.PastadanSteak{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.PastadanSteak:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Udon{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Udon:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Minuman{
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+div.MatchaLatte{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.MatchaLatte:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.LemonTea{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.LemonTea:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.BubbleTea{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.BubbleTea:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Smoothies{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Smoothies:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.CaramelMacchiato{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.CaramelMacchiato:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Negara{
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+div.Italia{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Italia:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Austria{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Austria:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Norwegia{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Norwegia:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Maroko{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Maroko:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Spanyol{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Spanyol:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Lagu{
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+div.Timeless{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Timeless:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.StayHere4Life{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.StayHere4Life:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.MalibuNights{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.MalibuNights:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.PinkWhite{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.PinkWhite:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.FashionKilla{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.FashionKilla:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.HewanFavorit{
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+div.Anjing{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Anjing:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Kucing{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Kucing:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Kelinci{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Kelinci:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Rusa{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Rusa:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Leopard{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #6cebef;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+div.Leopard:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+.Instagram {
+background-color: #ff99df;
+padding: 12px;
+margin: 40px 0 20px;
+width: 100%;
+box-sizing: border-box;
+border-radius: 15px;
+text-align: center;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.Instagram p {
+margin: 0 0 5px;
+color: #ffffff;
+font-size: 15px;
+}
+
+.Instagram a {
+color: #e521a7;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+}
+
+.Instagram a {
+text-decoration: underline;
+}
+.footer{
+    background-color: lightskyblue;
+    padding: 10px;
+    text-align: center;
+}
